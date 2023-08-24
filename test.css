@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+		
+
+/* designing header element */
+header{
+	width: 100%;
+	height: 565px;
+	background-image: url("header-bcg-pic.png");
+	background-size: cover;
+	display: flex;
+	background-attachment: fixed;
+	}
+		
+#myleftdiv{
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	}
+
+#myrightdiv{
+	width: 50%;
+  	height: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;	
+	}
+
+#myleftdiv2{
+	width: 60%;
+	height: auto;
+	font-weight: bolder;
+	position: relative;
+	bottom: 40px;
+	right: 50px;
+	}
+
+.span1{
+	color: white;
+  	font-size: 17px;
+  	border-bottom: solid;
+  	border-image: linear-gradient(to right, #0de1ae, #0d41e1);
+  	border-image-slice: 1;
+  	font-family: "Montserrat", sans-serif;
+	}
+
+ #myleftdiv3{
+	position: relative;
+	top: 30px;
+	right: 90px;
+	}
+
+#myrightdiv2{
+	width: 60%;
+  	height: 180px;
+  	padding: 10px;
+	}
+
+#myleftdiv2 p {
+  	color: white;
+  	font-family: "Sen", sans-serif;
+  	font-size: 40px;
+  	text-align: left;
+	}
+
+#myrightdiv2 p {
+  	background: linear-gradient(to right, #0de1ae, #0d41e1);
+  	font-size: 28px;
+  	font-weight: bolder;
+  	font-family: "Sen", sans-serif;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	display: flex;
+  	justify-content: end;
+  	}
+
+ .sessiondetails {
+  	color: white;
+  	font-size: 17px;
+  	font-weight: bold;
+  	font-family: "Montserrat", sans-serif;
+  	display: flex;
+  	justify-content: end;
+	}
+
+.button1div {
+  	width: 100%;
+  	height: auto;
+  	display: flex;
+  	justify-content: end;
+	}
+
+.button1 {
+	width: 200px;
+  	height: 50px;
+  	background: linear-gradient(to right, #0de1ae, #0d41e1);
+  	text-decoration: none;
+  	font-family: "Montserrat", sans-serif;
+  	color: white;
+  	border: none;
+  	border-radius: 6px;
+  	font-weight: bold;
+  	font-size: 14px;
+	}
+
+.button1:hover {
+	cursor: pointer;
+	}
+
+
+
+
+
+
+
+
+
+/* designing the first section */	
+#firstimgdiv {
+	padding: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	font-family: "Sen", sans-serif;
+	background-attachment: fixed;
+	}
+		
+#firstimgdiv div{
+	display: inline-block;
+	}
+
+#secondimgdiv {
+	padding-right: 0px;		
+	}
+	
+#thirdimgdiv img{
+	display: block;
+	}
+	
+#fourthimgdiv {
+	padding-top: 50px;
+	position: relative;
+	bottom: 120px;
+	left: 100px;
+	border: 3px 
+	}
+
+#fourthimgdiv h2{
+	margin-top: 12px;
+  	width: 450px;
+  	font-size: 30px;
+  	font-weight: bolder;
+	}
+		
+#fourthimgdiv h3{
+	color: #b69e43;
+	}
+
+#fourthimgdiv article{
+	height: auto;
+  	width: 400px;
+  	padding-top: 10px;
+  	font-family: 'Inter', sans-serif;
+  	font-weight: lighter;
+  	color: #818181;
+	}
+
+.img1{
+	padding-bottom: 10px;
+	padding-left: 5px;
+	}
+	
+.img2{
+	padding-left: 5px;
+	}
+
+#span2 {
+	background-color: #b69e43;
+	}
+
+.button2{
+	border: none;
+	border-radius: 5px;
+	background-color: #2d2d2d;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	color: white;
+	}
+
+.button2:hover {
+	cursor: pointer;
+	color: #2d2d2d;
+	background-color: white;
+  	outline: solid 3px #2d2d2d;
+  	transition: .1s;
+	}
+
+
+
+
+
+
+
+/* designing the tour(second) section */
+#toursection {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 70px;
+	gap: 35px;
+	}
+
+#toursection img{
+	width: 40%;
+  	height: 100%;
+  	border: 0;
+	}
+
+#toursection img:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  	transition: 0.3s ease-in;
+  	opacity: 0.8;
+  	cursor: pointer;
+	}
+
+
+
+
+
+
+
+
+
+/* designing the scholarship(third) section */
+#scholarships-section{
+ 	width: 100%;
+  	height: 80vh;
+  	position: relative;
+  	background-attachment: fixed;
+	}
+
+#scholarships-section h3{
+  	width: 100%;
+  	height: auto;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: 'Inter', sans-serif;
+  	font-weight: bolder;
+  	letter-spacing: -1px;
+  	color: #5C5C5C;
+  	margin-top: 40px;
+	}
+
+#information {
+  	width: 100%;
+  	height: auto;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+
+#information h2{
+  	width: 780px;
+  	height: auto;
+  	font-size: 30px;
+  	text-align: center;
+  	font-family: "Sen", sans-serif;
+  	letter-spacing: -1px;
+  	font-weight: bolder;
+	}
+
+#information h2 span{
+  	color: #0B36BB;
+  	text-decoration: underline;
+	}
+
+#paragraph {
+  	width: 100%;
+  	height: auto;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+
+#paragraph p{
+  	width: 700px;
+  	height: auto;
+  	text-align: center;
+  	color: #5C5C5C;
+  	font-family: 'Inter', sans-serif;
+	}
+
+#button3div{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}	
+
+.button3 {
+  	margin-top: 30px;
+  	border: none;
+  	width: 130px;
+  	height: 50px;
+  	border-radius: 5px;
+  	background-color: #0B36BB;
+  	color: white;
+  	font-size: 17px;
+  	font-weight: bold;
+	}	
+
+.button3:hover{
+  	background-color: white;
+  	outline: solid 3px #0B36BB;
+  	color: #0B36BB;
+  	cursor: pointer ;
+  	transition: .1s;
+	}
+
+.profile1{
+  	background: url(profile-bubble-1.png);
+  	width: 70px;
+  	height: 70px;
+  	border-radius: 50%;
+  	background-size: cover;
+  	position: absolute;
+  	top: 9%;
+  	left: 25%;*/
+	}
+
+.profile2{
+  	background: url(profile-bubble-2.png);
+  	background-size: cover;
+  	width: 65px;
+  	height: 65px;
+  	border-radius: 50%;
+  	position: absolute;
+  	top: 56%;
+  	left: 75%;
+	}
+
+.profile3{
+	background: url(profile-bubble-3.png);
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 8%;
+	left: 74%;
+	}
+
+.profile4{
+  	background: url(profile-bubble-4.png);
+  	background-size: cover;
+  	border-radius: 50%;
+  	width: 46px;
+  	height: 46px;
+  	position: absolute;
+  	top: 70%;
+  	left: 27%;	
+	}
+.profile5{
+  	background: url(profile-bubble-5.png);
+  	background-size: cover;
+  	border-radius: 50%;
+  	width: 30px;
+  	height: 30px;
+  	position: absolute;
+  	top: 49%;
+  	left: 22%;
+	}
+
+
+
+
+
+
+/* designing the footer */
+footer {
+	width: 900px;
+	height: 400px;
+	background-attachment: fixed;
+	}
+#footerdiv {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 0;
+	border: 0; 
+	background-attachment: fixed;
+	}
+
+#footerdiv1 {
+	background-color: #0D41E1;
+	color: white;
+	padding: 50px;
+	padding-right: 120px;
+
+	}
+
+#footerdiv1inner1 {
+	position: relative;
+  	top: 1.5%;
+  	left: 18%;
+	}
+
+.footerspan {
+	font-size: 15px;
+	font-family: 'Inter', sans-serif; 
+	line-height: 25px;
+	}
+
+.footerdiv1pad {
+	padding-bottom: 9px;	
+	}
+#footerdiv1inner1 {
+	padding-bottom: 10px;	
+	}
+#footerspan8 {
+	padding-top: 3	px;	
+	}
+#footerspan10 {
+	padding-bottom: 10px;	
+	}
+#footerspan11 {
+	padding-left: 5px;	
+	}
+#footerspan12 {
+	padding-left: 5px;	
+	}
+#footerspan13 {
+	padding-left: 5px;	
+	}
+
+#footerspan1 {
+	font-family: Sentient;
+	font-size: 18px;
+	letter-spacing: -0.5px;
+	font-weight: 700px;
+	line-height: 23.4px;
+
+	}
+
+#footerspan2 {
+	font-family: Sentient;
+	font-size: 28px;
+	line-height: 42px;
+	}
+
+
+
+
+#footerdiv2 {
+	background-color: #E4BC7E;
+
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 1px;
+	}
+
+#footerdiv2inner1{ 
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 5px;
+	/*padding-bottom: 0px;
+	padding-left: 30px;*/
+	}
+
+.footerdiv2inner1-div {
+	padding: 50px;
+	width: 170px;
+	height: 220px;
+	}
+
+.footerdiv2inner1-div h3 {
+	padding-bottom: 15px;
+	font-size: 18px;
+	line-height: 23.4px;
+	font-family: Sentient;
+
+	}
+
+.footerdiv2inner1-div p {
+	padding-bottom: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #303136;
+	}
+
+.footerdiv2inner1-div span {
+	padding-left: 10px;
+	}
+
+#footerdiv2inner1-div1 {
+	padding-right: 20px;
+	}
+
+#footerdiv2inner1-div2 {
+	padding-right: 20px;
+	padding-left: 20px;
+	}
+
+#footerdiv2inner1-div3 {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+#footerdiv2inner1-div4 {
+	padding-right: 2px;
+	padding-left: 20px;
+	}
+
+#divhr {
+	padding-left: 30px;
+	padding-bottom: 20px;
+	}
+
+hr {
+	width: 95%;
+	}
+
+#lastspandiv {
+	padding-top: 20px;
+	padding-left: 50px;
+
+	}
+
+#spanlast {
+	font-size: 18px;
+	line-height: 24px; 
+	height: auto;
+  	width: 50px;
+  	font-family: 'Inter', sans-serif;
+  	font-weight: lighter;
+  	color: #5C5C5C;
+
+	}
